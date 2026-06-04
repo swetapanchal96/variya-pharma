@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 760" role="img" aria-labelledby="title desc">
+  <title id="title">Granulation line machinery illustration</title>
+  <desc id="desc">Illustration of granulation machinery including mixer, dryer, mill, and blender.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061f36"/><stop offset=".55" stop-color="#092f52"/><stop offset="1" stop-color="#11a6b2"/></linearGradient>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#d7e3e8"/><stop offset="1" stop-color="#90a5af"/></linearGradient>
+  </defs>
+  <rect width="680" height="760" rx="26" fill="url(#bg)"/>
+  <path d="M0 556c117-57 225-41 326 8 145 71 250 58 354-18v214H0z" fill="#ffffff" opacity=".08"/>
+  <g transform="translate(94 96)">
+    <ellipse cx="252" cy="88" rx="112" ry="46" fill="#ffffff" stroke="#9aadb6" stroke-width="5"/>
+    <path d="M140 88h224v234c0 27-50 49-112 49s-112-22-112-49z" fill="url(#steel)" stroke="#9aadb6" stroke-width="5"/>
+    <ellipse cx="252" cy="322" rx="112" ry="49" fill="#cddbe1" stroke="#9aadb6" stroke-width="5"/>
+    <path d="M202 131h100v146H202z" fill="#ffffff" opacity=".45"/>
+    <path d="M364 176h58c32 0 58 26 58 58v84" fill="none" stroke="#78d6c6" stroke-width="18" stroke-linecap="round"/>
+    <rect x="430" y="306" width="74" height="98" rx="12" fill="#092f52" stroke="#78d6c6" stroke-width="5"/>
+    <path d="M46 492h438" stroke="#ffffff" stroke-opacity=".55" stroke-width="16" stroke-linecap="round"/>
+    <rect x="68" y="408" width="126" height="80" rx="13" fill="url(#steel)" stroke="#ffffff" stroke-opacity=".65" stroke-width="4"/>
+    <rect x="260" y="398" width="154" height="94" rx="13" fill="url(#steel)" stroke="#ffffff" stroke-opacity=".65" stroke-width="4"/>
+    <path d="M292 398l45-72 45 72" fill="#dfe8ec" stroke="#9aadb6" stroke-width="4"/>
+    <circle cx="90" cy="525" r="20" fill="#061f36"/>
+    <circle cx="170" cy="525" r="20" fill="#061f36"/>
+    <circle cx="296" cy="525" r="20" fill="#061f36"/>
+    <circle cx="390" cy="525" r="20" fill="#061f36"/>
+  </g>
+</svg>

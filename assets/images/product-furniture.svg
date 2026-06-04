@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 760" role="img" aria-labelledby="title desc">
+  <title id="title">Stainless steel pharma furniture illustration</title>
+  <desc id="desc">Illustration of stainless steel table, trolley, pass box, and cabinets.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#082f52"/><stop offset="1" stop-color="#0c7389"/></linearGradient>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#d3e0e5"/><stop offset="1" stop-color="#879da8"/></linearGradient>
+  </defs>
+  <rect width="680" height="760" rx="26" fill="url(#bg)"/>
+  <circle cx="540" cy="132" r="112" fill="#11a6b2" opacity=".25"/>
+  <circle cx="120" cy="606" r="154" fill="#ffffff" opacity=".08"/>
+  <g transform="translate(82 135)">
+    <rect x="0" y="298" width="516" height="74" rx="15" fill="url(#steel)" stroke="#ffffff" stroke-opacity=".65" stroke-width="4"/>
+    <path d="M38 372h27v205H38zm410 0h27v205h-27z" fill="#a9bbc3"/>
+    <rect x="106" y="438" width="236" height="94" rx="11" fill="#f8fbfc" stroke="#9aacb5" stroke-width="4"/>
+    <path d="M134 486h180" stroke="#11a6b2" stroke-width="12" stroke-linecap="round"/>
+    <rect x="44" y="48" width="178" height="204" rx="12" fill="url(#steel)" stroke="#ffffff" stroke-opacity=".65" stroke-width="4"/>
+    <path d="M132 54v192" stroke="#869ba6" stroke-width="4"/>
+    <circle cx="112" cy="153" r="8" fill="#092f52"/>
+    <circle cx="153" cy="153" r="8" fill="#092f52"/>
+    <rect x="300" y="68" width="136" height="182" rx="14" fill="#f8fbfc" stroke="#b6c4ca" stroke-width="4"/>
+    <rect x="320" y="94" width="96" height="42" rx="7" fill="#dfe8ec"/>
+    <rect x="320" y="154" width="96" height="42" rx="7" fill="#dfe8ec"/>
+    <path d="M342 250v42m56-42v42" stroke="#a9bbc3" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="342" cy="314" r="18" fill="#061f36"/>
+    <circle cx="398" cy="314" r="18" fill="#061f36"/>
+  </g>
+</svg>
