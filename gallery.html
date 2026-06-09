@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
 
 <body>
@@ -33,7 +35,7 @@
             <div class="collapse navbar-collapse" id="siteNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center nav-menu">
                     <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About Us</a></li>
                     <li class="nav-item dropdown product-dropdown">
                         <a class="nav-link dropdown-toggle" href="#products" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -66,8 +68,8 @@
                         </div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item ms-lg-2"><a class="btn nav-cta " href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item ms-lg-2"><a class="btn nav-cta" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +82,7 @@
         <div class="page-banner-overlay"></div>
         <div class="container">
             <div class="page-banner-content">
-                <h1>Contact Us</h1>
+                <h1>Gallery</h1>
             </div>
         </div>
 
@@ -95,150 +97,97 @@
                 </li>
 
                 <li class="breadcrumb-item active">
-                    Contact Us
+                    Photo Galllery
                 </li>
             </ol>
         </div>
     </section>
 
-    <section class="contact-connect-section">
+    <!-- =========================
+GALLERY SECTION
+========================= -->
+
+<section class="gallery-section">
     <div class="container">
 
-        <div class="contact-heading text-center">
-            <span>LET'S BUILD TOGETHER</span>
-            <h2>Get In Touch With Our Team</h2>
+        <div class="gallery-heading text-center">
+            <span class="gallery-kicker">
+                OUR GALLERY
+            </span>
+
+            <h2>
+                Manufacturing Excellence In Focus
+            </h2>
+
+            <p>
+                Explore our pharmaceutical manufacturing solutions,
+                stainless steel fabrication expertise and precision
+                engineering capabilities through our gallery.
+            </p>
         </div>
 
-        <div class="contact-layout">
+        <div class="row g-4">
 
-            <!-- Left Info -->
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-            <div class="contact-info-panel">
-
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="bi bi-geo-alt"></i>
-                    </div>
-
-                    <div>
-                        <h4>Ahmedabad HQ</h4>
-                        <p>
-                            Phase 4, GIDC Industrial Estate,
-                            Vatva, Ahmedabad,
-                            Gujarat, India
-                        </p>
-                    </div>
-                </div>
-
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="bi bi-telephone"></i>
-                    </div>
-
-                    <div>
-                        <h4>Call Us</h4>
-                        <a href="tel:+919725630539">
-                            +91 97256 30539
-                        </a>
-                    </div>
-                </div>
-
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="bi bi-envelope"></i>
-                    </div>
-
-                    <div>
-                        <h4>Email Us</h4>
-                        <a href="mailto:info@variyapharmasolutions.com">
-                            info@variyapharmasolutions.com
-                        </a>
-                    </div>
-                </div>
-
-                <div class="info-card">
-                    <div class="info-icon">
-                        <i class="bi bi-clock"></i>
-                    </div>
-
-                    <div>
-                        <h4>Working Hours</h4>
-                        <p>
-                            Mon - Sat : 9:00 AM - 7:00 PM
-                        </p>
-                    </div>
-                </div>
-
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
             </div>
 
-            <!-- Right Form -->
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-            <div class="contact-form-panel">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
+            </div>
 
-                <form>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-                    <div class="row g-4">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
+            </div>
 
-                        <div class="col-md-6">
-                            <input type="text"
-                                class="form-control custom-field"
-                                placeholder="Your Name">
-                        </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-                        <div class="col-md-6">
-                            <input type="email"
-                                class="form-control custom-field"
-                                placeholder="Email Address">
-                        </div>
+                    <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
+            </div>
 
-                        <div class="col-md-6">
-                            <input type="tel"
-                                class="form-control custom-field"
-                                placeholder="Phone Number">
-                        </div>
+            
 
-                        <div class="col-md-6">
-                            <input type="text"
-                                class="form-control custom-field"
-                                placeholder="Company Name">
-                        </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-                        <div class="col-12">
-                            <textarea
-                                rows="6"
-                                class="form-control custom-field"
-                                placeholder="Tell us about your requirement"></textarea>
-                        </div>
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
+            </div>
 
-                        <div class="col-12">
-                            <button type="submit"
-                                class="contact-submit-btn">
-                                Send Inquiry
-                                <i class="bi bi-arrow-right"></i>
-                            </button>
-                        </div>
 
-                    </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80"
+                    class="gallery-item glightbox">
 
-                </form>
-
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80"
+                        alt="">
+                </a>
             </div>
 
         </div>
 
     </div>
-</section>
-
-<!-- MAP -->
-
-<section class="contact-map-section">
-
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29387.75734499947!2d72.62049226054201!3d22.969750469455125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e889c2074cffd%3A0x832ea58e68cb0fad!2sVatva%20GIDC%2C%20Ahmedabad%2C%20Gujarat%20382445!5e0!3m2!1sen!2sin!4v1780579181497!5m2!1sen!2sin"
-        loading="lazy"
-        allowfullscreen="">
-    </iframe>
-
 </section>
 
     <!-- PREMIUM ARCHITECTURAL CONTROL DECK FOOTER -->
@@ -347,6 +296,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

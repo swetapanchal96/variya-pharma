@@ -134,3 +134,12 @@ new Swiper(".heroProductSlider", {
         }
     }
 });
+
+const lightbox = GLightbox({
+    selector: ".glightbox",
+    touchNavigation: true,
+    loop: true,
+    
+    zoomable: false,
+    draggable: false
+});
